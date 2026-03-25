@@ -1,0 +1,148 @@
+name = "mohammad"
+hoby = "coding"
+age = 18
+print("you are :", name)
+print("your hoby is :", hoby)
+print("your age is :", age) 
+
+
+name1 = 'sk'
+name2 = "sk"
+name3 = '''sk'''
+print(name1,name2,name3)
+
+
+#Arithmetic operators
+a=45
+b=88
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a % b) #remainder or bhagsesh
+print(a ** b) #a to the power of b
+
+
+
+
+
+relational operators
+a = 79
+b = 88
+print(a == b) #False
+print(a != b) #True
+print(a >= b) #False
+print(a <= b) #True
+print(a > b) #False
+print(a < b) #True
+
+
+
+Assignment operators
+moh = 40
+moh = moh + 60
+moh = moh - 70
+moh = moh * 4
+moh = moh / 5
+moh = moh ** 2
+print ("Num is:",moh)
+
+
+
+Logical operators 
+a = 666
+b = 8888
+print( not True)
+print(not (a == b))
+
+
+Bal1 = True
+Bal2 = False 
+print("And operators ;", Bal1 and Bal2)
+print("Or operators ;", Bal1 or Bal2)
+
+
+a = 40
+b = 59
+print("a is equal to b:", a == b)
+print ("a is not equal to b :", a != b)
+
+
+
+
+name = input("Enter your name:")
+hobby = input("What is your hobby;")
+job = input("what do you do for your living:")
+print("welcome", name)
+print("you love ", hobby)
+print("for living you do", job)
+
+
+
+
+sum1 = int(input("Enter your age:"))
+sum2 = int(input("Enter your brother's age:"))
+print("your age is ", sum1)
+print("your brothers age is", sum2)
+print("your brother is  ", sum1 - sum2 ,"years older than you")
+
+
+
+
+
+a = int(input("enter first num:"))
+b = int(input("enter sec num:"))
+print(a >= b)
+
+
+
+name = "Mohammad"
+age = 20
+aim = "engieer"
+print("my name is " , name)
+print("i am ", age , "years old")
+print("i want to be an", aim)
+
+
+FirstName = input("kindly enter your first name: ")
+LastName = input("whats your last name buddy:")
+FavNum = input("whats your most favourite number: ")
+UnFavNum = input("whats your least favourite number: ")
+print("i guess your full name is ", FirstName + " " + LastName)
+print("The sum of your two number is ", int(FavNum) + int(UnFavNum))
+print("The multification of your two number is ", float(FavNum) * float(UnFavNum))
+print("Hi ", FirstName, "your lucy number combo is", int(FavNum) + int(UnFavNum))
+
+
+
+
+
+
+age = int(input("enter your age "))
+print("you are,",sep="", end="")
+print(age) 
+
+
+
+
+
+name = input("Enter your name: ")
+print(f"Hello  {name}" )
+
+
+
+
+
+
+name = input("What is you name: ")
+
+# Remove whitespace from str
+name = name.strip()
+
+#Capitalize user's first name
+name = name.capitalize()
+
+#Capitalize user's all name
+name = name.title()
+
+print(f"Hello {name}")
