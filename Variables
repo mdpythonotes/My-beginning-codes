@@ -92,3 +92,18 @@ print(f"I bought {quantity} {fruit.capitalize()}'s today")
 x , y , z = 4 , 5 , 6
 x , y , z = y , z , x
 print(f"x={x} , y={y} , z={z}")
+
+price = 12.4440
+quantity = 4
+item = "apple"
+print(f"I have {quantity} {item.capitalize()}'s that cost {price:.2f} dollar")
+
+
+
+
+# User input practice
+
+#ask the user for their name and print a greeting
+name = input("What is your name? ")
+greetWith = "How are you doing?"
+print("Hello!" , name.capitalize().title() , greetWith)
