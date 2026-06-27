@@ -183,3 +183,79 @@ print("Hello! ", name , ", you are ", age , "years old")
 
 
 
+
+
+
+
+
+
+
+# Level 1 Variable Challenges
+#dynamic greeting
+name = input("What is your name? ")
+currentTime = input("Is this morning, afternoon or evening? ")
+print("Hello " + name.capitalize() + "!" " Good" , currentTime)
+
+
+
+#simple interest calculator
+principal = int(input("What is the principal amount? "))
+rate = int(input("What is the rate? "))
+time = int(input("What is the time? "))
+interest = (principal * rate * time) / 100
+print("Simple interest is: ", interest )
+
+
+
+#currency converter
+usd = int(input("Enter your usd amount: "))
+bdt = usd * 120
+print(usd , "USD =" , bdt , "BDT")
+
+
+
+# Age Difference
+my_age = int(input("Enter your age: "))
+friend_age = int(input("Enter your friend's age: "))
+print(f"Age difference is = {my_age - friend_age}")
+
+
+# Shopping Discount
+price = 100  #product
+discount = 5 #percent
+final_price = price - (price * discount / 100)
+print("Final Price = ", final_price)
+
+
+# Temperature Converter
+fahrenheit = 66
+celsius = (fahrenheit - 32) *5/9
+print("Temperature in celsius =", round(celsius,2)) 
+print(f"Temperature in celsius = {celsius:.2f}")
+
+
+# Student report card
+#ask for marks in 5 subjects, print total and avarage
+math = int(input("Math marks: "))
+english = int(input("English marks: "))
+physics = int(input("Physics marks: "))
+chemistry = int(input("Chemistry marks: "))
+biology = int(input("Biology marks: "))
+total_marks = math + english + physics + chemistry + biology
+avarege = total_marks / 5
+print("Total Marks = ", total_marks)
+print("Avarege =", avarege)
+
+
+
+# Bank Account Simulator
+balance = 1000   #starting balance
+deposit = float(input("Enter deposite amount: "))
+balance += deposit
+withraw = float(input("Enter withrawal amount: "))
+balance -= withraw
+print("Final balance =", balance)
+
+
+
+
